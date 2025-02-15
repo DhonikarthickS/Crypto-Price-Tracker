@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Crypto Prices</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div class="price-list">
+        <br>
+        <h1>Top 10 Cryptocurrencies by Price</h1> <br>
+
+        <label for="currency-select"><strong><h3>Select Currency :</h3></strong></label><br>
+        <select id="currency-select">
+            <option value="USD" selected>USD (US Dollar)</option>
+            <option value="INR">INR (Indian Rupee)</option>
+            <option value="EUR">EUR (Euro)</option>
+            <option value="JPY">JPY (Japanese Yen)</option>
+            <option value="GBP">GBP (British Pound)</option>
+            <option value="CAD">CAD (Canadian Dollar)</option>
+            <option value="AUD">AUD (Australian Dollar)</option>
+            <option value="SGD">SGD (Singapore Dollar)</option>
+        </select>
+        <button id="convert-btn">Convert</button>
+
+        <div class="coin-list"></div>
+    </div>
+    <br><br>
+
+    <script src="list.js" defer></script>
+</body>
+</html>
