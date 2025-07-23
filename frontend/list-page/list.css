@@ -1,0 +1,88 @@
+body {
+  background-image: url(/images/background.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-list {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.price-list label {
+  font-size: xx-large;
+}
+
+.price-list h3 {
+  margin-left: 20px;
+}
+
+#currency-select {
+  margin-left: 20px;
+  width: 28%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+#currency-select option {
+  opacity: 0.7;
+}
+
+.coin-list {
+  display: block;
+  text-align: left;
+}
+
+.coin {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px auto;
+  color: #ff960b;
+  border: 2px solid #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.coin img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.coin p {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+.coin span {
+  color: #ff960b;
+}
+
+h1 {
+  margin: 10px 30px;
+  font-size: 3em;
+}
+
+#currency-input {
+  padding: 20px 30px;
+  width: 30%;
+  border-radius: 30px;
+  margin-left: 10%;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#convert-btn {
+  padding: 16px 30px;
+  margin-left: 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
